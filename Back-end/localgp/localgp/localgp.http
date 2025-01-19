@@ -1,0 +1,6 @@
+@localgp_HostAddress = http://localhost:5198
+
+GET {{localgp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
