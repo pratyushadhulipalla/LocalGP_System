@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A380FB77-F0C1-4DEE-9441-EA2A28FEA920}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="localgp/appsettings.json">
+    <Files>
+      <File FileName="localgp/Services/IStripeService.cs" Line="1" Column="1" />
+      <File FileName="localgp/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="localgp/appsettings.json" Line="30" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="localgp" expanded="True">
+            <Node name="localgp">
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.localgp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+</Properties>
