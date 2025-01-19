@@ -1,0 +1,165 @@
+/* AboutUs.css */
+
+/* General Container */
+.about-us_container {
+    text-align: center;
+    /* padding: 40px 20px; */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Background Image Section */
+.background {
+    width: 50%;
+    height: 10vh; /* Full viewport height */
+    background-image: url('/public/services.jpeg'); /* Path to the image in the public folder */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; /* Ensure text is visible */
+    padding: 5vw 5vw;
+    margin-top: -5%;
+}
+
+.background1 {
+    width: 50%;
+    height: 10vh; /* Full viewport height */
+    background-image: url('/public/doctor1.jpg'); /* Path to the image in the public folder */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; /* Ensure text is visible */
+    padding: 5vw 5vw;
+    margin-top: -60%;
+}
+
+.background2 {
+    width: 50%;
+    height: 10vh; /* Full viewport height */
+    background-image: url('/public/time.jpg'); /* Path to the image in the public folder */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; /* Ensure text is visible */
+    padding: 5vw 5vw;
+    margin-top: 0%;
+}
+
+/* Navbar */
+.about-us_navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.about-us_navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+.about-us_navbar a:hover {
+    text-decoration: underline;
+}
+
+.about-us_navbar .title {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Sections */
+.about-us_content {
+    max-width: 1440px;
+    margin: 50px auto 50px auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* background-color: rgba(213, 229, 237, 0.9); Slight white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1vw;
+
+}
+
+.about-us_section {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #d2dce6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1%;
+}
+
+.about-us_section h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.about-us_section p,
+.about-us_section ul {
+    color: #333;
+}
+
+.about-us_section ul {
+    list-style-type:armenian;
+    padding: 0;
+    margin-left: 30%;
+}
+
+.about-us_section ul li {
+    margin: 5px 0;
+}
+
+.about-us_section section {
+    margin-bottom: 40px;
+    margin: 10%
+}
+.about-us_content section img {
+    width: 25vw;
+}
+
+.about-us_whoweare{
+    
+    width: 100%;
+    height: 80%;
+    
+
+    
+}
+
+.about-us_services{
+
+    width: 100%;
+   
+    
+}
+
+.about-us-workinghours{
+
+    width: 100%;
+
+}
+

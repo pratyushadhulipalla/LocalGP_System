@@ -1,0 +1,294 @@
+.PatientAppointments_container{
+
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    /* padding: 0px; */
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 5vw;
+}
+
+.PatientAppointments_navbar {
+    position: fixed;
+    top: 0;
+    width: 98vw;
+    background-color: #003366;
+    padding: 0.6vw 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 6%;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.PatientAppointments_navlinks {
+    display: flex;
+    margin-left: 50%;
+}
+
+.PatientAppointments_navlinks button {
+    background-color: #fff;
+    
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width:fit-content;
+    
+    /* margin-right: 170%; */
+
+}
+
+.PatientAppointments_navlinks .dropdown img{
+    width:4%;
+    margin-left: 10%;
+    /* height: 5%; */
+}
+
+.PatientAppointments_navlinks button:hover {
+    background-color: #f0f2f5;
+}
+
+.PatientAppointments_navlinks .dropdown {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+
+ .dropdown-icon {
+    cursor: pointer;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #edf0f32b;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+ .dropdown-content button {
+    color:#003366;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    background-color: #edf0f39c !important;
+    text-decoration: underline;
+}
+
+
+.error-message{
+    color: rgb(235, 65, 65);
+}
+
+.PatientAppointmentsform_container{
+
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding : 1vw 2vw;
+    
+    /* Allow form fields to wrap */
+    justify-content: space-between;
+    line-height: 1;
+    margin:5%;
+
+   
+    
+    
+}
+ 
+
+
+.PatientAppointments_Formfeilds .PatientAppointments_select{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:99%;
+    margin:1%;
+}
+
+.PatientAppointments_Formfeilds .PatientAppointments_input{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:94.7%;
+    margin:1%;
+
+}
+
+.PatientAppointments_Formfeilds .PatientAppointments_placeholder{
+
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:94.8%;
+    margin:1%;
+} 
+
+.PatientAppointments_Formfeilds{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width:95%;
+    margin:1%;
+}
+
+.PatientAppointmentsform_MyAppointments{
+
+    width: 100%;
+    max-width: 600px;
+    background-color:#d2dce6;
+    /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding : 3vw 2vw;
+    
+    /* Allow form fields to wrap */
+    justify-content: space-between;
+    line-height: 1;
+    margin:3%;
+}
+
+.PatientAppointmentsform_DoctorAvailability{
+
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(215, 239, 220, 0.8);
+    /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding : 3vw 2vw;
+    /* Allow form fields to wrap */
+    justify-content: space-between;
+    line-height: 1;
+    margin:10%;
+
+}
+
+.PatientAppointments_Ulist{
+    font-size: larger;
+    font-style:oblique;
+    margin: 2%;
+}
+
+.PatientAppointments_list{
+    margin: 2%;
+
+}
+
+.time-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.time-box {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.time-box-container button {
+    background-color:white !important;
+    color: #003366;
+}
+
+.time-box-container .time-box.selected {
+    background-color :#003366 !important;
+    color: white;
+    border-color: #007bff;
+    
+}
+
+.time-box:disabled {
+    background-color: #ddd !important;
+    cursor: not-allowed !important;
+    color: #999 !important;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.popup-content h3 {
+    margin-bottom: 15px;
+}
+
+.popup-content p {
+    margin: 5px 0;
+}
+
+.popup-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #0056b3;
+}
+
+

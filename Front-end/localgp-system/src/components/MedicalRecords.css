@@ -1,0 +1,32 @@
+.medical-records-container {
+    padding: 20px;
+}
+
+.medical-records-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appointments-section,
+.prescriptions-section {
+    margin-bottom: 30px;
+}
+
+.appointments-section ul,
+.prescriptions-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.appointments-section li,
+.prescriptions-section li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.appointments-section h3,
+.prescriptions-section h3 {
+    margin-bottom: 10px;
+}

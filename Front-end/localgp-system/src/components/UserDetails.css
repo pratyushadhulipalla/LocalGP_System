@@ -1,0 +1,160 @@
+.user-details-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.verified-message {
+    color: green;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.verified-icon {
+    margin-left: 5px;
+    color: green;
+    font-size: 14px;
+}
+
+
+.userdetails {
+    background-color: #d2dce6;
+   width: 500px !important;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   
+   
+}
+.user-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-details-container div {
+    margin-bottom: 15px;
+}
+
+.user-details-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.userdetails input,
+.userdetails select,
+.userdetails fieldset {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.user-details-container fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.user-details-container fieldset legend {
+    font-size: 1rem;
+    padding: 0 5px;
+}
+
+.user-details-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-details-container button:hover {
+    background-color: #0056b3;
+}
+
+.user-details-container h3 {
+    margin-top: 20px;
+}
+
+.EmergencyContacts {
+    background-color: rgba(130, 180, 144, 0.191);
+    border-radius: 5px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emergency-contact, .new-emergency-contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.emergency-contact p {
+    margin: 5px 0;
+}
+
+.new-emergency-contact h4 {
+    margin-bottom: 10px;
+}
+
+.new-emergency-contact input, .emergency-contact input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.EmergencyContacts .new-emergency-contact button {
+    background-color: #003366 !important;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 20vw;
+    text-decoration: none !important;
+    
+
+}
+.EmergencyContacts h3 {
+    color:#003366 !important;
+    font-size: 1.5rem;
+}
+
+
+.EmergencyContacts button {
+    background-color: rgba(51, 57, 68, 0) !important;
+    text-decoration: underline !important;
+    color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 20vw;
+    font-size: 1.5rem;
+}
+
+.EmergencyContacts button:hover {
+    background-color: rgba(0, 128, 0, 0.469)!important;
+}

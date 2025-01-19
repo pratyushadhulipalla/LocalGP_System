@@ -1,0 +1,154 @@
+/* Navbar Styles */
+.register_navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 6vh;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Container Styles */
+.register_container {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register_formcontainer {
+    width: 80%;
+    max-width: 300px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40%;
+    /* Allow form fields to wrap */
+    justify-content: space-between;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    width:90%
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    width:95%
+}
+.aligndropdown {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    /* Ensures dropdowns are positioned relative to this container */
+    overflow: visible;
+    /* Prevents clipping of dropdowns */
+    
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    background-color: #00CCFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00CCFF;
+    ;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+.success {
+    color: green;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.fieldSize{
+    width: 95% !important; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+} 
+
+.fas.fa-heartbeat {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px; /* Adjust size as needed */
+    color: white; /* Adjust color as needed */
+  }
+
+
+

@@ -1,0 +1,73 @@
+.doctor-prescription-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+
+
+}
+.doctor-prescription-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #003366;
+    padding: 0.6vw 0.6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 5vh;
+}
+
+.doctor-prescription-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor-prescription-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.doctor-prescription-container form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-left: 18%;
+}
+
+
+.doctor-prescription-container form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 40vw;
+    
+}
+
+.doctor-prescription-container form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 38vw;
+}
+
+.doctor-prescription-container form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.doctor-prescription-container form button:hover {
+    background-color: #0056b3;
+}

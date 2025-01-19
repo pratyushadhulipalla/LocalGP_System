@@ -1,0 +1,238 @@
+/* Login.css */
+
+
+.Loginform-container {
+
+
+    width: 80%;
+    max-width: 300px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allow form fields to wrap */
+    justify-content: space-between;
+    width: 300px;
+    
+}
+
+
+
+.login_navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+    padding: 5px 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 6vh;
+
+}
+
+.navbar a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .title {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.login_container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #003366 !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.Loginbutton-group {
+
+
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .Loginbutton-group button {
+    width: 10vw;
+ }
+ 
+
+
+.create-account a {
+    color: #0056b3;
+    text-decoration: none;
+    font-size:medium;
+    /* font-weight: bold; */
+}
+
+.create-account .small-text {
+    font-size: 14px; /* Adjust the size as needed */
+    
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: -0px;
+    margin-bottom: 10px;
+}
+
+
+
+.forgot-password {
+    margin-top: 10px;
+ }
+ 
+ 
+ .forgot-password a {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: small;
+    
+ }
+
+
+ 
+ 
+ /* .forgot-password button:hover {
+    color: #0056b3;
+ } */
+ 
+
+
+.form-container {
+    width: 70%;
+    max-width: 600px;
+    /* Increased width for two columns */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+ 
+}
+.fas.fa-heartbeat {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px; /* Adjust size as needed */
+    color: white; /* Adjust color as needed */
+  }
+
+  .login_nav-links{
+
+    padding: 0px;
+    background-color: #003366 !important;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+   margin-top: -1.5%;
+
+  }
+
+  .login_field{
+
+    line-height: 200%;
+  }

@@ -1,0 +1,97 @@
+.contact-page {
+    text-align: center;
+    padding: 10px;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    flex-direction:row;
+    
+    
+    top:0;
+    
+    
+}
+
+.contact-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.contact-card i {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.contact-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-card p {
+    color: #555;
+    margin: 0;
+}
+
+.navbar-contact {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+    padding: 10px 20px;
+    display: flex;
+    
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+}
+
+.contact-page {
+    margin-top: 70px; /* Adjust this if the navbar height changes */
+    width: 100%;
+}
+
+.contact-page h1{
+
+    font-size: 30px;
+    color: #003366;
+
+}
+.contact-container{
+    width: 100% !important;
+   
+   
+    
+    /* Semi-transparent background */
+   
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    
+    /* Allow form fields to wrap */
+    
+    width: 300px;
+}

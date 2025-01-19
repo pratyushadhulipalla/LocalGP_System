@@ -1,0 +1,55 @@
+.feedback-form-container {
+    margin-left: 20px; /* Move the form to the right */
+    max-width: 400px; /* Adjust width as needed */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star.filled {
+    color: gold;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submitted-feedback {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.submitted-feedback h3 {
+    margin-bottom: 10px;
+}
+
+.submitted-feedback p {
+    margin: 5px 0;
+}

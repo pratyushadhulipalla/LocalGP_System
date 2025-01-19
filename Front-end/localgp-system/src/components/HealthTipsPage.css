@@ -1,0 +1,298 @@
+/* src/components/HealthTipsPage.css */
+
+.health-tips-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health-tips-container h1 {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    margin: 2%;
+    color:rgb(31, 128, 92);
+    font-size: 4rem;
+}
+
+.patient-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+}
+
+.patient-navbar .title {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.patient-navbar .title i {
+    margin-right: 10px;
+}
+
+.patient-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.patient-nav-links button {
+    margin: 0 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.patient-nav-links button:hover {
+    background-color: #555;
+}
+
+.patient-nav-links .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.patient-nav-links .dropdown .dropdown-icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.patient-nav-links .dropdown .dropdown-content {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.patient-nav-links .dropdown .dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.patient-nav-links .dropdown .dropdown-content button:hover {
+    background-color: #ddd;
+}
+
+.health-tip-category {
+    width: 90%;
+    margin-top: 10px;
+    background-color: rgba(93, 107, 143, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.health-tip-category_Diet{
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgba(214, 165, 92, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.health-diet_1{
+    width: 90%;
+    margin-top: 5px;
+    
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.health-diet_1 img{
+    width:60%;
+    margin-left: 30%;
+}
+.health-diet_1 ul{
+    width:100%;
+    margin-right: -7%;
+    font-size: 1.4rem;
+}
+.health-tip-category_Diet h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -1%;
+    align-content: center;
+    align-self:flex-start;
+
+}
+
+.health-tip-category_Fit{
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgba(64, 78, 91, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.health_fit {
+    width: 90%;
+    margin-top: 5px;
+    
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.health_fit img {
+    width:60%;
+    margin-left: 30%;
+}
+
+.health_fit ul {
+
+    width:100%;
+    margin-right: -7%;
+    font-size: 1.4rem;
+
+}
+
+
+.health-tip-category_mental{
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgba(134, 99, 129, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.health_mental {
+    width: 90%;
+    margin-top: 5px;
+    
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.health_mental img {
+    width:60%;
+    margin-left: 30%;
+}
+
+.health_mental ul {
+
+    width:100%;
+    margin-right: -7%;
+    font-size: 1.4rem;
+
+}
+
+
+.health-tip-category_care{
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgba(70, 59, 121, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.health_care {
+    width: 90%;
+    margin-top: 5px;
+    
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.health_care img {
+    width:60%;
+    margin-left: 30%;
+}
+
+.health_care ul {
+
+    width:100%;
+    margin-right: -7%;
+    font-size: 1.4rem;
+
+}
+
+
+.health-tip-category_general{
+    width: 80%;
+    margin-top: 5px;
+    background-color: rgba(25, 40, 25, 0.304);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.health_general {
+    width: 90%;
+    margin-top: 5px;
+    
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.health_general img {
+    width:60%;
+    margin-left: 30%;
+}
+
+.health_general ul {
+
+    width:100%;
+    margin-right: -7%;
+    font-size: 1.4rem;
+
+}
+.health-tip-category h2 {
+    /* background-color: #f4f4f4; */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.health-tip-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.health-tip-category li {
+   
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+}
+
+.newsletter-signup {
+    margin-top: 40px;
+    text-align: center;
+}
+

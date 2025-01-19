@@ -1,0 +1,254 @@
+/* DoctorCalendar.css */
+
+.calendar-container {
+    margin: 20px;
+    padding: 20px;
+    background-color:#00206622;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 87vh;
+    width: 38vw !important;
+    margin-left: 8%;
+}
+
+.calendar-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 15%;
+    margin-top: -2%;
+}
+
+.calendar-header h2 {
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.calendar-header button {
+    
+    width: 60%;
+    padding: 10px 10px;
+    background-color: #007bff !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.calendar-editbuttons{
+    display: flex;
+    flex-direction: row;
+    gap:10%
+    
+}
+
+.calendar-header button:hover {
+    background-color: #0055b3;
+}
+
+
+.calendar {
+    height: 20vh;
+    border: 2px solid #1c3760;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:white;
+}
+
+.calendar .rbc-calendar {
+    box-sizing: border-box;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 5%;
+}
+
+input[type="time"] {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.rbc-event {
+    background-color: #d4edda !important; /* Light green background */
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    color: #155724;
+}
+
+.rbc-event:hover {
+    background-color: #c3e6cb !important;
+}
+
+.calendar .rbc-event {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.calendar .rbc-event:hover {
+    background-color: #0055b3;
+}
+
+.rbc-toolbar {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -30%; */
+    font-size: 0;
+    height: 8%;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: -1%;
+
+}
+
+.rbc-btn-group {
+    color: white !important;
+    
+    width: 100% !important;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rbc-toolbar .rbc-toolbar-label {
+    
+    padding: 5px;
+    text-align: center;
+    margin-top: -20%;
+    color: rgb(38, 142, 9);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 17.5vw;
+    width: 90%;
+}
+
+.rbc-btn-group > button:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: white;
+    margin-left: 0vw;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 10px;
+    /* margin-right: 40%; */
+}
+
+.rbc-btn-group > button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    color: white;
+    margin-left: 17vw;
+    
+}
+
+.rbc-btn-group > button:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    margin-right: 0vw;
+}
+
+.rbc-month-view {
+    position: relative;
+    border: 1px solid #4c0f0f !important; 
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    height: 90% !important;
+    width: 48vw !important;
+    background-color: white;
+}
+
+.rbc-button-link {
+    color: inherit;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    -webkit-user-select: text;
+    user-select: text;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    margin-top: -3%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    /* list-style: none; */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+.rbc-event {
+    background-color: #403086; /* Light green for availability */
+}
+
+.rbc-event.Holiday {
+    background-color: #ffcccb !important; /* Light red for holidays */
+}
+
+.rbc-month-view {
+    position: relative;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    height: 70%;
+    width: 30vw !important;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.rbc-event-content[title="Holiday"]{
+   color: rgb(249, 81, 81);
+}
+.rbc-event-content[title="Available"]{
+    color: black;
+ }
